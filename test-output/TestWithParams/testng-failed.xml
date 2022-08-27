@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestWithParams]">
+  <test thread-count="5" name="TestWithParams2(failed)">
+    <parameter name="num1" value="1"/>
+    <parameter name="numberFromParams" value="3"/>
+    <parameter name="num2" value="4"/>
+    <classes>
+      <class name="pkgTest.numberTest">
+        <methods>
+          <include name="testCalculator" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- pkgTest.numberTest -->
+    </classes>
+  </test> <!-- TestWithParams2(failed) -->
+  <test thread-count="5" name="TestWithParams3(failed)">
+    <parameter name="num1" value="1"/>
+    <parameter name="numberFromParams" value="3"/>
+    <parameter name="num2" value="3"/>
+    <classes>
+      <class name="pkgTest.numberTest">
+        <methods>
+          <include name="testCalculator" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- pkgTest.numberTest -->
+    </classes>
+  </test> <!-- TestWithParams3(failed) -->
+</suite> <!-- Failed suite [TestWithParams] -->

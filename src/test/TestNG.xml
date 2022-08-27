@@ -1,0 +1,41 @@
+<suite name="TestWithParams">
+
+<test name="TestWithParams5">
+	<parameter name="num1" value="1"/>
+	<parameter name="num2" value="2"/>
+	<parameter name="numberFromParams" value="3"/>
+	<classes>
+		<class name="pkgTest.numberTest">
+		/</class>
+	</classes>
+</test>
+<test name="TestWithParams1">
+	<parameter name="num1" value="1"/>
+	<parameter name="num2" value="2"/>
+	<parameter name="numberFromParams" value="3"/>
+	<classes>
+		<class name="pkgTest.numberTest">
+		/</class>
+	</classes>
+</test>
+<test name="TestWithParams2">
+	<parameter name="num1" value="1"/>
+	<parameter name="num2" value="4"/>
+	<parameter name="numberFromParams" value="3"/>
+	<classes>
+		<class name="pkgTest.numberTest">
+		/</class>
+	</classes>
+</test>
+<test name="TestWithParams3">
+	<parameter name="num1" value="1"/>
+	<parameter name="num2" value="3"/>
+	<parameter name="numberFromParams" value="3"/>
+	<classes>
+		<class name="pkgTest.numberTest">
+		/</class>
+	</classes>
+</test>
+
+
+</suite>
